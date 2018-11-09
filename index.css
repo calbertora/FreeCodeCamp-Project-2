@@ -1,0 +1,41 @@
+body {
+    background-color: #bcc8e1;
+    font-family: 'Open Sans', sans-serif;
+    height: 550px;
+}
+#title,#description {
+    text-align: center;
+}
+
+#content {
+    background-color: #eaeaeb;
+    margin: 0% 10% 10% 10%;
+    padding: 2% 0% 0% 0%;
+    height: 95%;
+}
+
+.form-element {
+    text-align: right;
+    width: auto;
+}
+
+.label-el {
+    width:50%;
+    float: left;
+    padding: 6px 0;
+}
+
+.input-el {
+    width: 45%;
+    float: left;
+    text-align: left;
+    margin: 6px 0 6px 10px;
+}
+
+div[class="label-el"] label{
+    padding-right: 10px;
+}
+input {
+    height: 25px;
+    padding-left: 3px;
+}
